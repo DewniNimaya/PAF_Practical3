@@ -177,7 +177,7 @@ public class Item {
 						+ "<input name ='updateID' type = 'hidden'  value='" + itemID + "'>" + "</form></td>"
 
 						+ "<td><form method = 'post' action = 'items.jsp'>"
-						+ "<input name ='btnRemove' type = 'submit' value = 'Remove'> "
+						+ "<input name ='btnRemove' type = 'submit' value = 'Remove'  class='btn btn-danger'> "
 						+ "<input name ='itemID' type = 'hidden'  value='" + itemID + "'>" + "</form></td></tr>";
 
 			}
