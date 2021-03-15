@@ -173,7 +173,7 @@ public class Item {
 				// buttons
 
 				output += "<td><form method = 'post' action = 'items.jsp'>"
-						+ "<input name ='btnUpdate' type = 'submit' value = 'Update'> "
+						+ "<input name ='btnUpdate' type = 'submit' value = 'Update' class='btn btn-secondary'> "
 						+ "<input name ='updateID' type = 'hidden'  value='" + itemID + "'>" + "</form></td>"
 
 						+ "<td><form method = 'post' action = 'items.jsp'>"
